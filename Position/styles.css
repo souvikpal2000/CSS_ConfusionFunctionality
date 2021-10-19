@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 1344px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 2px;
+}
+#box2{
+    position: relative; /* Position itself Relative to its Normal Position */
+    top: 30px;
+    left: 30px;
+}
+#box4{
+    position: absolute; /* Position itself Relative to its Parent Element */ 
+    top: 30px;
+    left: 30px;
+}
+#box6{
+    position: fixed; /* Works like Absolute Positioning but remains fixed during Scrolling */
+    top: 50px;
+    left: 50px;
+}
+#box8{
+    position: sticky; /* Works like Relative Positioning */
+    top: 100px;
+}
